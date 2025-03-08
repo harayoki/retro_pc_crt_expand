@@ -1,0 +1,9 @@
+usage: retro_pc_crt_expand.py [-h] [-o OUTPUT] [-s SCALE] [-m MODE] [-cw CRT_WIDTH_RATIO] [-bg BACKGROUND_COLOR BACKGROUND_COLOR BACKGROUND_COLOR] [-hm] [-vm] [-xb XBLUR_RGB] [-sp SUBPIXEL_EFFECT_RATIO] [-sl SCAN_LINE_RATIO] input
+  -hm, --hmargin        add horizontal margin width(597 base) to the image
+  -vm, --vmargin        add margin height(448 base) to the image
+  -xb XBLUR_RGB, --xblur_rgb XBLUR_RGB
+                        horizontal blur ratio for RGB
+  -sp SUBPIXEL_EFFECT_RATIO, --subpixel_effect_ratio SUBPIXEL_EFFECT_RATIO
+                        generate subpixel decomposition
+  -sl SCAN_LINE_RATIO, --scan_line_ratio SCAN_LINE_RATIO
+                        scan line effect 0.0 - 1.0
